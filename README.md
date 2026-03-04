@@ -14,6 +14,8 @@
 
 ---
 
+![Alt text](https://i.postimg.cc/z5SZwtHW/02.png)
+
 ## 📋 Table of Contents
 
 - [✨ Features](#-features)
@@ -190,6 +192,7 @@ This project is open source and available for personal .
 > أداة احترافية قائمة على الويب لإنشاء مقاطع فيديو تلاوة القرآن عالية الجودة مع صوت متزامن وتطبيق طباعي واحترافي.
 
 ---
+![Alt text](https://i.postimg.cc/z5SZwtHW/02.png)
 
 ## 📋 جدول المحتويات
 
