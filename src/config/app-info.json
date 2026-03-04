@@ -1,0 +1,38 @@
+{
+  "appName": "Quran Video Studio",
+  "version": "v1.0.0",
+  "author": "oussamadev",
+  "description": "Create and edit Quran videos easily.",
+  "socialLinks": [
+    {
+      "platform": "website",
+      "url": "http://quran8vs.pages.dev/",
+      "iconPath": "/icon/favicon.svg"
+    },
+    {
+      "platform": "youtube",
+      "url": "http://www.youtube.com/@quran8vs",
+      "iconPath": "/social_media/youtube.svg"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/quran8vs/",
+      "iconPath": "/social_media/facebook.svg"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/quran8vs/",
+      "iconPath": "/social_media/instagram.svg"
+    },
+    {
+      "platform": "telegram",
+      "url": "https://telegram.me/quran8vs",
+      "iconPath": "/social_media/telegram.svg"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/quran8vs",
+      "iconPath": "/social_media/github.svg"
+    }
+  ]
+}

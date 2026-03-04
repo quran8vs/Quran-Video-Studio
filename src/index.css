@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-studio-bg: #09090b;
+    --color-studio-panel: #18181b;
+    --color-studio-border: #27272a;
+    --color-studio-text: #f4f4f5;
+    --color-studio-textMuted: #a1a1aa;
+    --color-studio-accent: #10b981;
+    --color-studio-accentHover: #059669;
+  }
+
+  @font-face {
+    font-family: 'LateefSwashes';
+    src: url('/fonts/LateefSwashes.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .font-lateef {
+    font-family: 'LateefSwashes', serif;
+  }
+
+  /* Native App Feel Configuration */
+  html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Prevent full page scroll */
+    user-select: none; /* Prevent text selection */
+    -webkit-user-select: none;
+    overscroll-behavior: none; /* Prevent bounce effect */
+    background-color: var(--color-studio-bg);
+  }
+
+  /* Allow text selection on specific elements if needed */
+  .selectable-text {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+
+  /* Re-enable text selection for inputs and textareas */
+  input, textarea {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-studio-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-studio-textMuted);
+}
